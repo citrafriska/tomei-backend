@@ -1,0 +1,36 @@
+{
+  "name": "tomei-backend",
+  "version": "1.0.0",
+  "description": "Back End for Tomei Test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citrafriska/tomei-backend.git"
+  },
+  "author": "Citra Friskanita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/citrafriska/tomei-backend/issues"
+  },
+  "homepage": "https://github.com/citrafriska/tomei-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mariadb": "^2.5.4",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
